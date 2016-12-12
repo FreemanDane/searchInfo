@@ -1,0 +1,74 @@
+多巴胺：想要快感别找我，我忙着呢
+【唱唱反调】多巴胺 = 快乐？没那么简单！
+Mon1st，
+一句话总结：多巴胺在大脑中起到表达奖励预测误差，控制运动，和参与运动学习的作用，和快感没有直接关系；研究表明愉悦感表达于多个脑区的复杂网络，并非由任一单个神经递质产生。
+1. 为什么会有多巴胺带来快感这样的说法？
+大众传媒为了易于传播常常把大脑中多巴胺的释放等价于快乐、快感、幸福的主观感觉，甚至有所谓多巴胺决定天长地久这种诡异的说法又或者，像下图这样的大脑=化学浓汤理论：（作为神经科学的学生看到这种图表示实在是不能忍，这都什么鬼！）（红色到蓝色依次是多巴胺，血清素，催产素，内啡肽）。
+图片来源是一个叫做内在哺乳动物研究院的诡异组织，还放个 PhD 来唬人这个 Dr. Breuning 本科博士都是研究劳资关系的！
+之所以会有这个传说，是因为对 {大鼠会自我刺激多巴胺脑区} 这一实验结果的错误解读 {自我刺激一定是因为很爽} 被人们的想象力 {哎呀要是能搞到多巴胺我岂不是能让自己爽} 放大传播，结果以讹传讹。
+以下试图处理你很可能会问的两个问题：
+快乐的神经基础究竟是什么？多巴胺不带来快感的话，什么带来快感？
+如果不是产生快乐，多巴胺的作用究竟是什么？
+2. 愉悦感(pleasure)的神经基础
+2.1 对大脑快感中心的搜寻始于上世纪五十年代
+图来自 [1]，x 光片显示大鼠脑中电极的植入位置。
+麦吉尔大学的 James Olds 和 Peter Milner 发现，在脑中很多区域植入电极，大鼠们都会主动通过按一个杠杆来得到相应区域的电击。因为电击会刺激神经元的活动，这些区域被 Olds 称为快感中心 /pleasure center。但是后来 Olds 也承认，中心这个词实在是站不住脚。其中一个原因是，当电极释放电流，不仅会刺激附近的神经元，也会刺激只是路过的神经纤维（由轴突，在两个神经元之间传递信息的导线组成）们。这样，以电流刺激任何一个有大量神经纤维路过的地方，都会广泛刺激大脑的许多不同区域。而 Olds 的电极最有效的地方，中脑，恰恰充满了这样的过路纤维。
+2.2 奖励，而非快感中心的发现
+2.2.1 多巴胺突触是快感中心？
+在类似于 Olds 发明的实验范式中，后来的研究人员逐渐发现了更多证据，支持中脑多巴胺细胞是动物自我电刺激的重要节点。
+可移动式电极的发明使得研究人员可以更加准确地控制刺激电极的位置，从而验证在 Olds 早期发现的区域中，最有效的刺激来自于多巴胺细胞层（实心圆圈），而非附近有更多过路纤维的区域（空心圆圈）[2]。
+另一方面，多巴胺合成或受体阻断剂都可以打断动物的自我电刺激即，如果没有多巴胺或多巴胺产生的作用，即使在多巴胺脑区植入电极，动物也不会去按杠杆进行电刺激。
+同一时间对毒品成瘾的研究发现，多巴胺阻断剂可以降低安非他命和可卡因的效力。在动物模型中，多巴胺阻断剂可以减少动物对食物和水的追求。
+这一系列间接证据使得 Roy Wise 推测多巴胺的输出端释放多巴胺的突触是快感中心。
+2.2.2 人类快感电极和对 Olds 实验范式的质疑
+类似于 Olds 的实验也在人类患者身上做过。最为出名（恶名昭著？）的莫过于 Robert Heath 和同事试图治疗同性恋的电击实验 [4,5]。Heath 在男同性恋患者B-19脑中植入电极，B-19 可以自己刺激脑内的不同区域。其中，隔核(septum)的电极使得 B-19 欲罢不能：他总是在主动启动电流，正如 Olds 的大鼠们一般。实验的结果是真的治好了 B-19 的同性恋倾向，这里按下不表。有兴趣的请自己看少儿不宜的 Moan and Heath, 1972。
+这些刺激是否真的使得被试们感到快感呢？ 此类涉及主观感受的问题，最可靠的指标无疑是人类被试的报告。Kent Berridge 阅读了治疗过程中的采访记录却发现，尽管在类似的实验中人类被试报告想要更多的刺激和引起性欲，却从未有被试说过电击的感觉很好，按下按钮会觉得舒服这样的话来直接表达快感。
+2.2.3 多巴胺活动表达奖励预测误差
+与此同时，另一个非常有影响力的实验 (Schultz, 1997) 表明，多巴胺细胞的活动表达奖励预测误差(Reward Prediction Error, RPE)：实际得到的减去预测的奖励或奖励信号。详见下文3.1
+2.2.4 多巴胺活动在经典条件反射中表达奖励预测误差， 而非快感。
+大量实验支持了 Schultz 的发现，而这一理论与强化学习的结合可以解释为什么对多巴胺细胞的刺激会强化动物或人类病人进行自我刺激的行为：刺激奖励中心会使得刺激动作本身不断强化，而不必伴随快感。
+2.3 动物实验中测量快感(pleasure)的方法：表情
+上面提到 Kent Berridge 对人类电击实验的结果表示怀疑，但由于众所周知的原因他又不能重复电击治疗同性恋这样的上古实验
+他发明了一种新的测量动物是否愉悦的方法：面部表情！
+Berridge 的灵感来自于：我们是怎么知道小宝宝喜不喜欢吃各种食物的？ - 在尝到喜欢和不喜欢的食物时，他们的表情会不一样。 Berridge 就发现，动物也有类似的表达：通过观测记录大鼠喝不同饮料的表情，可以客观地测量大鼠是否享受，或者说感到愉悦。
+2.4 享乐热点 (Hedonic Hotspots)
+通过刺激不同脑区，并观察大鼠在喝饮料时是否表现出享受的表情，Berridge 找到了若干个享乐热点 和 享乐冷点。
+在上图所示意的实验中，实验人员在大鼠脑中的不同区域（包括伏隔核 /NAc 和腹侧苍白球 /VP） 注射阿片受体激动剂，发现在红色区域（享乐热点）的注射增强了大鼠对糖水的享受，而蓝色区域（享乐冷点）的注射测降低了享受程度 [7]。
+如果在同样的实验中再考察动物是否表达恶心的表情，和进食情况，会发现比上图更加复杂的享乐地图:
+红色 / 蓝色：同上。紫色：降低不喜欢。绿色：增加想要
+这一实验清晰地描绘出了快感（或享乐, hedonic）和欲望（或想要, wanting）在大脑中是可分的，很可能表达在不同的脑回路活动中。
+3. 多巴胺究竟是干嘛的？
+3.1 奖励预测误差
+发现这一信号的是 Wolfram Schultz: 他在猴子的多巴胺脑区 VTA 植入电极，然后给猴子糖水喝。
+上图：Fig.1, [6] 多巴胺细胞的放电活动 (spiking activity)，在猴子获得糖水奖励(R)时显著增加。
+接下来，Schultz 使用经典的巴普洛夫条件反射实验，在给猴子糖水前 1 秒钟播放一个声音来提示猴子。
+在猴子习惯了这一关联后，他一听到提示音就会期待糖水。而多巴胺细胞的活动变成了在听到提示音(CS)后增强，因为这一提示预测未来的奖励。注意，在实际获得糖水时，多巴胺活动不再增强，因为糖水奖励已经被预测到了。当你训练一个动物（或人）期待奖励时，你就可以做一件很邪恶的事情：播放提示音，但就是不给糖水。
+有趣的是，在这种情况下，当猴子听到提示音时多巴胺活动仍然会增强（因为提示音的播放是随机而无法预测的，而提示音预测奖励）。但是当奖励应该出现而没有出现的准确时间，多巴胺细胞停止了放电活动，正像是对预期的奖励没有出现表示失望。
+奖励预测误差已经在猴子、鼠类、甚至人类的多巴胺细胞活动中得到了反复证实，是对多巴胺功能最广泛接受的理论 [6,8,9]。
+3.2 运动控制
+多巴胺直接参与运动控制，这是今年(2016)发表的最新研究所证实的。详见 
+3.3 运动学习
+这一理论实际上和 3.1 紧密关联，但是因为尚未有经过发表的实验证据，放在最后介绍。
+简单来说，多巴胺活动同样可以表达表现误差 /Performance Error：当动物或人类想要执行一个任务时，会比较自己的表现和预期的表现。这一信号是强化学习所预测的（见 ）。
+3.4 其他
+多巴胺细胞的活动也与唤醒程度[10]，奖励的不确定性[11]，与任务相关的显著刺激[12,13]，负面刺激[14]等有关。这里就不一一展开了。
+最后，给自己唱唱反调：今天这篇文章其实并不全算反调，因为多巴胺不等于快乐 / 快感，在学界早已经是共识。
+Gon: this is too meta... （我只是想找个理由放这张图而已 :P）
+[1] OLDS, J.,  MILNER, P. (1954). Positive reinforcement produced by electrical stimulation of septal area and other regions of rat brain. Journal of Comparative and Physiological Psychology, 47(6), 41927.
+[2] Wise, R. A. (1980). The dopamine synapse and the notion of pleasure centers in the brain. Trends in Neurosciences, 3(C), 9195.
+[3] Berridge, K. C.,  Valenstein, E. S. (1991). What psychological process mediates feeding evoked by electrical stimulation of the lateral hypothalamus? Behavioral Neuroscience, 105(1), 314.
+[4] Moan, Charles E., and Robert G. Heath. "Septal stimulation for the initiation of heterosexual behavior in a homosexual male." 
+Journal of Behavior Therapy and Experimental Psychiatry 3.1 (1972): 23IN127-2630.
+[5] Heath, Robert G. "Pleasure and brain activity in man: Deep and surface electroencephalograms during orgasm." 
+The journal of nervous and mental disease 154.1 (1972): 3-18.
+[6] Schultz, W., Dayan, P.,  Montague, P. R. (1997). A neural substrate of prediction and reward. Science, 275(5306), 15939.
+[7] Berridge, K. C., Robinson, T. E.,  Aldridge, J. W. (2009). Dissecting components of reward: liking, wanting, and learning. Current Opinion in Pharmacology, 9(1), 6573.
+[8] Roesch, M. R., Calu, D. J.,  Schoenbaum, G. (2007). Dopamine neurons encode the better option in rats deciding between differently delayed or sized rewards. Nat Neurosci, 10(12), 161524.
+[9] Zaghloul, K. A., Blanco, J. A., Weidemann, C. T., McGill, K., Jaggi, J. L., Baltuch, G. H.,  Kahana, M. J. (2009). Human Substantia Nigra Neurons Encode Unexpected Financial Rewards. Science (New York, N.Y.), 323(5920), 14961499.
+[10] Schultz, W. "Behavior-related activity of primate dopamine neurons." 
+Revue neurologique (1994).
+[11] Fiorillo, C. D., Tobler, P. N.,  Schultz, W. (2003). Discrete Coding of Reward Dopamine Neurons. Science, 299(March), 18981902.
+[12] S. Kobayashi, W. Schultz, Curr Biol 24, 56 (Jan 6, 2014).
+[13] B. Pasquereau, R. S. Turner, J Neurophysiol 113, 1110 (Feb 15, 2015).
+[14] Matsumoto, M.,  Hikosaka, O. (2009). Two types of dopamine neuron distinctly convey positive and negative motivational signals. Nature, 459(7248), 83741.
+一开始写这篇文章只是想澄清多巴胺带来愉悦感的常见误解，不过写到一半发现知乎上已经有类似的高质量回答了~ 因为内容不是完全重复，在这里向感兴趣的读者推荐的回答：

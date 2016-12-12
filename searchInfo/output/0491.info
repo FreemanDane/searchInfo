@@ -1,0 +1,38 @@
+都说第二个包子就不如第一个那么让人满足了，怎么竟会吃上了瘾
+上瘾和边际效用递减矛盾吗？
+慧航，
+知乎用户，
+边际效用递减并非公理、规律、定理，而是一个一般的假设。
+针对上瘾的建模，计量上的处理比较常见，比如对于吸烟行为的研究中，通常会使用一个滞后来刻画上瘾行为：
+其中参数度量了上瘾的程度，在吸烟的例子中，一般都是比较接近于 1 的。
+从理论上，上瘾的建模可以类比消费的惯性，比如一般的模型中，消费是这样建模的：
+而如果考虑消费的惯性，可以写成
+其中 r 就度量了调整消费水平带来的负效用。注意这里的 u 仍然是可以边际效用递减的。
+当然以上的模型有一个问题，上瘾意味着如果上一期有消费，这一期消费少了和消费多了的效果是不对称的，从这一点上来看，消费的惯性并不完全适用于上瘾这个例子。针对烟瘾这个问题，Suranovic 等人在 1999 年的 Journal of Health Economics 上有写过一个模型（），使用调整成本的方式进行建模。在他们的模型里面，吸烟的效用也是边际递减的。
+所以呢，边际递减只是一个假设而已，不是一个公理，也不是一个定理。且不说有一些模型并不会假设边际递减，即使使用了边际递减这个假设，也不一定就不允许存在上瘾的行为，关键看怎么去建模。毕竟，能解释现实、符合数据的模型都是好模型。
+这方面最有影响力的文献是 Stigler and Becker (1977) 和 Becker and Murphy (1988) 提出的理性成瘾（rational addiction）理论；Becker, Grossman and Murphy (1994) 更是对相关理论进行了仔细的经验检验，通过数据否定了用非理性的短视模型（myopic model）来解释香烟成瘾者的行为。这支文献强调上瘾行为是在稳定偏好下消费者有远见性的最优化行为（forward-looking optimization），因此是完全理性的。这支文献的一个重要特点就是成瘾品所显示出的正向强化（positive reinforcement）特征，这被称为相邻互补性（adjacent complementarity），即过去消费历史 
+s 的增加提高了当前消费 
+c 的边际效用：
+（注：相邻互补性与一般意义上的边际效用递减并不矛盾，因为和仍可以成立。）
+理性成瘾理论提出后也受到了不少批评，其中尤为突出的是没有把上钩与戒除（getting hooked and withdrawing）的过程包括进来。例如 Winston (1980) 就指出，Stigler and Becker (1977) 模型暗示了成瘾其实是一个快乐的成瘾者（happy addict）在拥有完美信息时提前规划好的过程。一个瘾君子之所以成为瘾君子，无非是他选择了要成为瘾君子，因为这是他在生命中获得最大满足的手段。只要买得起毒品，他就会毫不犹豫地买毒品以获得满足；而一旦买不起毒品，他也会毫无痛苦地一下子戒毒这种诠释放在现实中显然很奇怪。
+一些研究在理性成瘾理论的基础上进行了改进和重新诠释。例如 Orphanides and Zervos (1995) 考虑了潜在成瘾者的类型。在他们的模型中，潜在成瘾者在与成瘾品接触之前并不确定自己是否为易成瘾类型，而只有在接触的过程中才会逐渐了解自身的类型。这也就意味着，对于一些主观上认为自己是不易成瘾类型的人，当他们意识到自己其实是易成瘾类型时便上钩了，此时他们会对自己之前的决策产生悔恨。在这个模型中，相邻互补性仍然是描述上瘾行为的一个关键假设。
+@慧航 提到的 Suranovic, Goldfarb and Leonard (1999) 则是通过将调整成本（adjustment cost）和预期寿命损失（life expectancy loss）引入模型，强调了戒除作用和吸烟对未来健康的负面影响。这个模型其实依然建立在相邻互补性的一个重要蕴涵之上，即相比过去的消费历史，成瘾者如果减少了对成瘾品的当前消费，这个行为就会产生负效用。这篇文章的创新之处在于，作者们把这个负效用直接拿来建模，并将其解释为戒除成本。
+References:
+Stigler, G.J. and Becker, G.S., 1977. De Gustibus Non Est Disputandum. 
+American Economic Review, 
+67(2), pp.76-90.
+Becker, G.S. and Murphy, K.M., 1988. A Theory of Rational Addiction. 
+Journal of Political Economy, 
+96(4), pp.675-700.
+Becker, G.S., Grossman, M. and Murphy, K.M., 1994. An Empirical Analysis of Cigarette Addiction. 
+American Economic Review, 
+84(3), pp.396-418.
+Winston, Gordon C., 1980. Addiction and Backsliding. 
+Journal of Economic Behavior  Organization, 
+1(4), pp.295-324.
+Orphanides, A. and Zervos, D., 1995. Rational Addiction with Learning and Regret. 
+Journal of Political Economy, 
+103(4), pp.739-58.
+Suranovic, S.M., Goldfarb, R.S. and Leonard, T.C., 1999. An Economic Theory of Cigarette Addiction. 
+Journal of Health Economics, 
+18(1), pp.1-29.

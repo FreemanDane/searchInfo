@@ -1,0 +1,70 @@
+看见一个美女向你走来，大脑里的神经元点亮了一小片
+神经元的激活状态与所呈现的视觉刺激之间是怎样一种映射关系？
+李竞捷，
+这个问题对于我来说是一个再合适不过的问题了~
+其实答主这个问题细答的话我们是需要分开不同的脑区来答的。因为不同神经元的激活性质 (tuning properties) 是不一样的。
+首先我们定义感受野
+我们谈视觉信息是怎么激活神经元的，一个不可忽视的定义方式就是感受野(Receptive Field, RF)，我们认为在很多视觉的神经元内，这个神经元只接受整个视野里某一个部分的信息进行处理。这是一个比较重要的基本概念。
+再来简介大脑主要的视觉通路
+那么首先就需要我来给答主介绍一下大脑的主要的视觉通路都是由什么构成的。
+视觉的信息被眼球捕捉到，首先到光感受器上，然后经过视网膜内简单的神经环路的初步加工，到 RGC (视网膜神经节细胞) 产生动作电位向大脑传递信息。RGC 的信息传递到丘脑的外膝体 (LGN)，换元后进入初级视觉皮层 (V1)，V1 进一步加工视觉信息，然后传递到 MT, V2, V3 等区域，此后视觉信息兵分两路，主要分为视觉的背侧通路 (Dorsal Pathway) 与腹侧通路 (Ventral Pathway)，腹侧主要编码这个物体是什么，而背侧主要编码这个物体在哪里？怎么运动？以及我们如何理解这个物体并且如何去操纵它 (Fang  He 2005, Fischer et al 2016)。腹侧主要还有 V4, IT 等区域，背侧还包含 LIP, AIP 等区域，具体可以看下面这个猴子主要视觉通路的图片：
+下面我就几个主要的脑区神经元的激活性质进行一些介绍。
+首先是视网膜神经节细胞（RGC 是视网膜唯一能够产生动作电位的细胞），它具有一个非常简单的环形感受野，像下面这幅图这样。
+如果在视野的某个特定位置（这个细胞的感受野上），出现了一束像这样中间亮而边缘暗的光（也有的细胞是相反的，倾向于周边亮中间暗的刺激），这个细胞就会强烈的发放动作电位。
+再介绍初级视觉皮层 (V1)
+区域，这里的细胞主要对视野内某个区域某一个朝向的边缘信息敏感 (Orientation Selectivity) (Hubel  Wiesel 1968)。此外 V1 的一部分细胞也会编码这个边缘的运动方向信息。下面这个图可以很好的说明这个特点。
+对 V1 皮层方向选择性的研究结果使得 Hubel 与 Wiesel 获得了 1981 年的诺贝尔奖。这个结果也极大地启发了计算机视觉的研究。
+对于视觉的腹侧通路，传统的观念认为，信息自下而上流动的过程 (Bottom Up) 是一个不断整合信息，把微小的边缘拼凑拼凑，拼成角，逐渐抽象编码直至一个完整物体的过程。如下面这个图 (Herzog et al 2015)。
+对于 V2 来说
+但是实际上我们对它的性质理解的还不太够。比如我们最近的研究认为，第二视觉皮层 (V2) 实际上在加工 V1 皮层处理过的这些边缘信息的高层次的一些相关关系(Higher Order Correlation)，更类似于处理一个物体的材质信息 (Freeman et al 2013)。
+虽然对于比较简单的刺激（简单边缘这种），V2 的激活性质和 V1 相似，但是对于复杂的材质类型的编码机制我们还没有弄清楚。需要更进一步的深入研究。
+对于 V4
+这个区域来说
+我们现在认为 V4 的编码整合视野内物体的边缘，从而通过 V4 群体编码可以反映这个物体的完整的边缘信息、形状 (Pasupathy  Connor 2002)
+例如上面这个图，这个图上画的就是给猴子呈现的这个类似雨滴的各种形状，颜色越黑代表神经元的发放程度越剧烈，从而研究者们就发现，这个 V4 的神经元在编码这个物体上方（以极坐标表示，90 度的方位上）这个地方的曲率信息。
+通过一群 V4 神经元的群体编码，我们可以吧这个刺激的形状再重建出来，也就是说 V4 通过这种方式对物体的形状信息进行了群体编码。但是对于 V4 对于复杂刺激的真正的编码方式我们还没有了解清楚，需要科学家们进一步的研究。(Pasupathy  Connor 2002)
+好了信息进一步流动到 IT
+皮层。
+在 IT 皮层，视觉信息是对我们看到的一个特定的物体激活。但是更具体来讲，对于这个物体也并不是非常选择性的激活（比如祖母细胞这种，是不存在的），而是以一个细胞集群的方式进行编码的。甚至我们还发现了专门编码人脸的 FFA 与编码场景信息的 PPA (Kanwisher et al 1997)。
+下面再来介绍视觉的背侧通路对什么刺激激活。
+首先来谈谈 MT区
+这个区域选择性地对运动的方向激活。属于加工运动信息的脑区。对于简单的刺激而言，它可以对视野内某个位置的某一个运动方向激活。
+而对于一个复杂的物体而言，整体的运动方向和局部的运动方向是不一样的，MT 也会编码整体的运动方向，而且 MT 可以通过编码远近不同的视觉运动信息，从而加工出立体的、更复杂的运动信息。对于具体 MT 如何编码运动，我们还没有完全搞清楚 (Born  Bradley 2005, Cui et al 2013, Smith et al 2005)。
+接着在 VIP
+区，神经元对物理触摸与视觉的刺激都会响应 (Duhamel, Colby, and Goldberg 1998) 他们不光接受来自视觉背侧通路相关皮层(MT) 的信号，还接受某些躯体感受皮层的信号（SI）。但是这种表征仍然是对头部的相对位置。沿通路向上，当神经发放从 VIP 区域传递到 F4 区域后，对刺激的感受野被转换成相对于身体的特定部位。
+在 AIP
+区，神经元将特定的物理属性与特定的运动行为关联。AIP 的某些神经元也可以对猴子看到的某些特定形状的物体激活，被认为可能与动物的抓握本能有关(Murata et al. 2000)。除此之外，人们让猴子在明亮或者昏暗的环境下抓握物体，实验显示，这些神经元可以被分为三组：视觉主导 / 运动主导、视觉 - 运动（visuo-motor）神经元。(Murata et al. 2000) 这三种神经元用视觉输入，编码特定物体的视觉可见性，并把他们与特定的运动行为联系起来。
+来到运动皮层，我们还发现前运动皮层的 F5
+区，还有某些神经元，不光在猴子自己运动的时候会激活，在猴子看到人或者其他猴子做相似运动的时候也会选择性的激活。
+我们把这些神经元称作是镜像神经元。(Rizzolatti et al. 1996.)
+总而言之
+视觉刺激与某些神经元的活跃是有非常强的对应关系的。随着不同皮层区域、不同神经元处理的信息不同，编码的方式不同，它们的对应关系也差别比较大，从简单的视野内边缘朝向，到材质、边缘轮廓，直至一个复杂的运动、特定的物体，甚至是面孔。大脑中这些神经元如何编码信息，如何加工这些信息我们知道的这些只是冰山一角，还有更多需要我们去发现，去探索。
+写在后面
+因为我个人只是准大二本科生一名，能力有限。以上都是我在自己看书、自己去找论文和跟实验室的同学讨论过程中的一些积累。我也只知道一些皮毛。对于 V3 等区域对视觉信息加工的编码我也不太了解，希望抛砖引玉。看看更多其它大神的见解。
+References
+Born RT, Bradley DC. 2005. Structure and function of visual area MT. 
+Annu Rev Neurosci 28: 157-89
+Cui Y, Liu LD, Khawaja FA, Pack CC, Butts DA. 2013. Diverse suppressive influences in area MT and selectivity to complex motion features. 
+J Neurosci 33: 16715-28
+Duhamel JR, Colby CL, Goldberg ME. 1998. Ventral intraparietal area of the macaque: congruent visual and somatic response properties. 
+J Neurophysiol 79:126136.
+Fang F, He S. 2005. Cortical responses to invisible objects in the human dorsal and ventral pathways. 
+Nat Neurosci 8: 1380-5
+Fischer J, Mikhael JG, Tenenbaum JB, Kanwisher N. 2016. Functional neuroanatomy of intuitive physical inference. 
+Proc Natl Acad Sci U S A
+Freeman J, Ziemba CM, Heeger DJ, Simoncelli EP, Movshon JA. 2013. A functional and perceptual signature of the second visual area in primates. 
+Nat Neurosci 16: 974-81
+Herzog MH, Sayim B, Chicherov V, Manassi M. 2015. Crowding, grouping, and object recognition: A matter of appearance. 
+J Vis 15: 5
+Hubel DH, Wiesel TN. 1968. Receptive fields and functional architecture of monkey striate cortex. 
+Journal of Physiology 195: 215-43
+Kanwisher N, McDermott J, Chun MM. 1997. The Fusiform Face Area: A Module in Human Extrastriate Cortex Specialized for Face Perception. 
+The Journal of Neuroscience 17: 4302-11
+Murata A, Gallese V, Luppino G, Kaseda M, Sakata H. 2000. Selectivity for the shape, size, and orientation of objects for grasping in neurons of monkey parietal area AIP. 
+J Neurophysiol 83:25802601
+Pasupathy A, Connor CE. 2002. Population coding of shape in area V4. 
+Nat Neurosci 5: 1332-8
+Rizzolatti G, Fadiga L, Gallese V, Fogassi L. 1996. Premotor cortex and the recognition of motor actions. 
+Brain Res Cogn Brain Res 3:131141.
+Smith MA, Majaj NJ, Movshon JA. 2005. Dynamics of motion signaling by neurons in macaque area MT. 
+Nat Neurosci 8: 220-8

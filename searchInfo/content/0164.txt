@@ -1,0 +1,23 @@
+这个问题有多个理解视角：
+从解剖上看，人的眼睛和鼻孔之间，有鼻泪管(nasolacrimal duct)联通。当人大哭时，有的眼泪从眼角的泪腺(Lacrimal gland)流出来，有一些眼泪经过鼻泪管流到鼻孔里 [1]。鼻粘膜受到了眼泪的刺激，会分泌出的鼻涕。所以，痛哭时就会流鼻涕 ，这些鼻涕妨碍了通过鼻腔的呼吸，人不得不通过口腔呼吸来补充，这就阻碍了说话，形成痛哭时说话特有的哭腔。
+另外，新生儿的鼻泪管还没有连通，这会使他 / 她们的眼泪不能通过鼻泪管排出，看起来总是水汪汪的。
+从认知上看，情绪（无论是高兴、悲伤还是忧虑），都会从语言的理解和语言的形成两个方面（输入和输出）妨碍其认知过程。
+即使是语言内容中的情绪，也会使人对内容的理解上产生困难，表现在理解时间的增加和理解错误率的增加无论是正面情绪还是负面情绪[2, 3]。如果情绪是自身产生的，并且是更为极端的情况，有理由相信这种妨碍会更加的明显。
+情绪对人的想法、做决定的过程以及解决问题的方式有很大的影响。在情绪影响之下，人们做决定的能力得到相当的削弱，表现为，证明情绪相比于中间状态受累更多，而负面情绪相比于正面情绪和中间状态受累更多[4]。
+也就是说，在情绪影响之下，人的逻辑能力被削弱，对逻辑性内容的表达过程被妨碍。容易表达不清，失去条理、逻辑混乱。
+以上。
+----
+[1] Standring, Susan. "Grays anatomy." 
+The anatomical basis of clinical practice 39 (2008).
+[2] Jimnez-Ortega, L., Martn-Loeches, M., Casado, P., Sel, A., Fondevila, S.,  de Tejada, P. H., et al. (2012). How the emotional content of discourse affects language comprehension. 
+Plos One
+,
+7(3), 1643-1646.
+[3] Filik, R., Hunter, C. M.,  Leuthold, H. (2015). When language gets emotional: irony and the embodiment of affect in discourse. 
+Acta Psychologica
+,
+156, 114-125.
+[4] Jung, N., Wranke, C., Hamburger, K.,  Knauff, M. (2014). How emotions affect logical reasoning: evidence from experiments with mood-manipulated participants, spider phobics, and people with exam anxiety.
+Frontiers in Psychology
+,
+5(7), 570-570.
